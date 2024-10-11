@@ -1,20 +1,39 @@
 body {
     background-color: #FFFFFF;
     color: #00274C;
-    margin: 20px;
+    margin: 1ex;
 }
 
-nav > ul > li > a {
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+    display: inline-block;
+    border: 3px solid #00274C;
+    margin: 10px;
+    padding: 5px
+}
+
+.navigation_item{
     background-color: #FFCB05;
     border: 1px solid #00274C;
+    margin: 0.5vw;
 }
 
-nav > ul > li > a:hover {
+.navigation_item:hover {
     background-color: #00274C;
     color: #FFCB05;
 }
 
-.current_nav > a {
+.navigation_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.current_nav{
     background-color: #00274C;
     color: #FFCB05;
 }
