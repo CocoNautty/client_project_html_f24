@@ -14,6 +14,20 @@ body {
     padding: 5px
 }
 
+.logobar {
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    margin: 0;
+}
+
+.title-heading {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
 .navigation_item{
     background-color: #FFCB05;
     border: 1px solid #00274C;
@@ -23,6 +37,12 @@ body {
 .navigation_item:hover {
     background-color: #00274C;
     color: #FFCB05;
+}
+
+.navigation_item a {
+    text-decoration: none;
+    padding: 0.3em;
+    display: block;
 }
 
 .navigation_list {
