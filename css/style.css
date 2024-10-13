@@ -21,17 +21,10 @@ body {
     margin: 0;
 }
 
-.title-heading {
-    flex: 1;
-    text-align: center;
-    margin: 0;
-    font-size: 24px;
-}
-
 .navigation_item{
     background-color: #FFCB05;
     border: 1px solid #00274C;
-    margin: 0.5vw;
+    margin: 0.4vw;
 }
 
 .navigation_item:hover {
@@ -40,9 +33,9 @@ body {
 }
 
 .navigation_item a {
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-decoration: none;
-    padding: 0.2rem;
+    padding: 0.1rem;
     display: block;
 }
 
@@ -52,6 +45,7 @@ body {
     justify-content: space-around;
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 .current_nav{
@@ -62,29 +56,39 @@ body {
 h1 {
     color: #00274C;
     font-family: 'Roboto', sans-serif;
-    font-size: x-large;
     text-align: center;
     font-weight: bold;
+    flex: 1;
+    margin: 0;
+    font-size: 1.7em;
 }
 
 h2, h3 {
     color: #00274C;
     font-family: 'Roboto', sans-serif;
-    text-align: left;
     background-color: #FFCB05;
     font-weight: bold;
+    margin: 0.5vh;
+    margin-top: 1vh;
 }
 
 h2 {
-    font-size: larger;
+    text-align: center;
+    font-size: 1.4em;
 }
 
 h3 {
-    font-size: large;
+    text-align: left;
+    font-size: 1.2em;
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+ol {
+    list-style-type: decimal;
     margin-left: 30px;
 }
 
@@ -93,20 +97,29 @@ img {
     margin-left: auto;
     margin-right: auto;
     border: 5px solid #00274C;
-    margin: 20px;
-    padding: 10px
+    margin: 0px;
+    padding: 5px
+}
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: small;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    text-align: justify;
+    text-align: left;
     line-height: 1.5;
+    margin: 0.5vh;
 }
 
 li {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    text-align: justify;
+    text-align: left;
     line-height: 1.5;
+    margin: 0.5vh;
 }
