@@ -123,3 +123,18 @@ li {
     line-height: 1.5;
     margin: 0.5vh;
 }
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    margin-top: 1vw;
+    padding: 0;
+}
