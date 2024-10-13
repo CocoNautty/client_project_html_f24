@@ -40,8 +40,9 @@ body {
 }
 
 .navigation_item a {
+    font-size: 1.2em;
     text-decoration: none;
-    padding: 0.3em;
+    padding: 0.2rem;
     display: block;
 }
 
@@ -97,6 +98,13 @@ img {
 }
 
 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+li {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
     text-align: justify;
