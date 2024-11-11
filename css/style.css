@@ -1,7 +1,20 @@
-body {
+.body {
     background-color: #FFFFFF;
     color: #00274C;
     margin: 1ex;
+}
+
+.skip {
+    position: absolute;
+    height: 25px;
+    background-color: white;
+    left: -10000px;
+    border: 1px solid #00274C;
+}
+
+.skip:focus {
+    left: 10px;
+    top: 10px;
 }
 
 .logo {
@@ -28,6 +41,11 @@ body {
 }
 
 .navigation_item:hover {
+    background-color: #00274C;
+    color: #FFCB05;
+}
+
+.navigation_item:focus {
     background-color: #00274C;
     color: #FFCB05;
 }
@@ -125,9 +143,8 @@ li {
 }
 
 .img-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
     margin: 0;
     padding: 0;
 }
@@ -137,4 +154,49 @@ li {
     height: auto;
     margin-top: 1vw;
     padding: 0;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 1vh;
+    margin: auto;
+}
+
+@media screen and (min-width: 500px) {
+    .body {
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+}
+
+@media  screen and (min-width: 900px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        background-color: white;
+    }
+    .navigation_list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background-color: #FFCB05;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: aliceblue;
+    }
+
+    .body {
+        width: 900px;
+    }
 }

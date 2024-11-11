@@ -1,0 +1,12 @@
+@media screen and (min-width: 900px) {
+    .img-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    .img-container img {
+        margin: 10px;
+    }
+}
