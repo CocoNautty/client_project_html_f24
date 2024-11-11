@@ -23,6 +23,7 @@
     .mental {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 5px;
     }
     
     .mental > h2 {
@@ -34,8 +35,9 @@
     }
     
     .mental-item {
-        margin: 15px;
+        padding: 5px;
         grid-column: span 1;
+        border: 2px solid #00274C;
     }
     
     .mental-item:first-child {

@@ -1,11 +1,13 @@
-body div{
-    text-align: center;
+a {
+    color: #00274C;
 }
 
-h2 {
-    background-color: white;
-}
+@media screen and (min-width: 900px) {
+    h2 {
+        background-color: white;
+    }
 
-footer {
-    margin-top: 30vh
+    footer {
+        margin-top: 30vh
+    }
 }
